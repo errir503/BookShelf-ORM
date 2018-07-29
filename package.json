@@ -12,6 +12,7 @@
   "dependencies": {
     "@koa/cors": "^2.2.2",
     "bookshelf": "^0.13.3",
+    "dotenv": "^6.0.0",
     "knex": "^0.15.2",
     "koa": "^2.5.2",
     "koa-body": "^4.0.4",
