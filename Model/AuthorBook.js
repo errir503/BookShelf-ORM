@@ -4,4 +4,4 @@ let AuthorBook = bookshelf.Model.extend({
     tableName : 'authors_books'
 });
 
-module.exports = AuthorBook;
+module.exports = bookshelf.model('AuthorBook', AuthorBook);

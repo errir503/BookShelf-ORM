@@ -9,4 +9,4 @@ let Author = bookshelf.Model.extend({
     }
 });
 
-module.exports = Author;
+module.exports = bookshelf.model('Author', Author);
